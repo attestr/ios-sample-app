@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		320872DA4D85B3EB1611D23C /* Pods_FlowxApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBD49116AC06E80EADEAF054 /* Pods_FlowxApp.framework */; };
 		D3C3D2EE26B02A53004C14A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C3D2ED26B02A53004C14A0 /* AppDelegate.swift */; };
 		D3C3D2F026B02A53004C14A0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C3D2EF26B02A53004C14A0 /* SceneDelegate.swift */; };
 		D3C3D2F526B02A53004C14A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3C3D2F326B02A53004C14A0 /* Main.storyboard */; };
@@ -14,8 +15,6 @@
 		D3C3D2FA26B02A55004C14A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3C3D2F826B02A55004C14A0 /* LaunchScreen.storyboard */; };
 		D3C3D30426B02AC6004C14A0 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C3D30326B02AC6004C14A0 /* Extensions.swift */; };
 		D3C3D30626B02AD3004C14A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C3D30526B02AD3004C14A0 /* ViewController.swift */; };
-		D3F2E75D26C540FB00F4D5F3 /* attestr_flowx.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3F2E75B26C540F300F4D5F3 /* attestr_flowx.xcframework */; };
-		D3F2E75E26C540FB00F4D5F3 /* attestr_flowx.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D3F2E75B26C540F300F4D5F3 /* attestr_flowx.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,7 +24,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				D3F2E75E26C540FB00F4D5F3 /* attestr_flowx.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -33,6 +31,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		42840924A53E8D0C1BDE0BF8 /* Pods-FlowxApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlowxApp.debug.xcconfig"; path = "Target Support Files/Pods-FlowxApp/Pods-FlowxApp.debug.xcconfig"; sourceTree = "<group>"; };
+		D34098C559E960D4A79BF548 /* Pods-FlowxApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlowxApp.release.xcconfig"; path = "Target Support Files/Pods-FlowxApp/Pods-FlowxApp.release.xcconfig"; sourceTree = "<group>"; };
 		D3C3D2EA26B02A53004C14A0 /* FlowxApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlowxApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3C3D2ED26B02A53004C14A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3C3D2EF26B02A53004C14A0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -42,7 +42,7 @@
 		D3C3D2FB26B02A55004C14A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D3C3D30326B02AC6004C14A0 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		D3C3D30526B02AD3004C14A0 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D3F2E75B26C540F300F4D5F3 /* attestr_flowx.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = attestr_flowx.xcframework; sourceTree = "<group>"; };
+		EBD49116AC06E80EADEAF054 /* Pods_FlowxApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlowxApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,18 +50,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3F2E75D26C540FB00F4D5F3 /* attestr_flowx.xcframework in Frameworks */,
+				320872DA4D85B3EB1611D23C /* Pods_FlowxApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		94840C1503BF87A5824B8B5B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EBD49116AC06E80EADEAF054 /* Pods_FlowxApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D3C3D2E126B02A53004C14A0 = {
 			isa = PBXGroup;
 			children = (
 				D3C3D2EC26B02A53004C14A0 /* FlowxApp */,
 				D3C3D2EB26B02A53004C14A0 /* Products */,
+				DFEC35F11DFFFFAFC2B1A712 /* Pods */,
+				94840C1503BF87A5824B8B5B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -76,7 +86,6 @@
 		D3C3D2EC26B02A53004C14A0 /* FlowxApp */ = {
 			isa = PBXGroup;
 			children = (
-				D3F2E75B26C540F300F4D5F3 /* attestr_flowx.xcframework */,
 				D3C3D2ED26B02A53004C14A0 /* AppDelegate.swift */,
 				D3C3D2EF26B02A53004C14A0 /* SceneDelegate.swift */,
 				D3C3D30526B02AD3004C14A0 /* ViewController.swift */,
@@ -89,6 +98,16 @@
 			path = FlowxApp;
 			sourceTree = "<group>";
 		};
+		DFEC35F11DFFFFAFC2B1A712 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				42840924A53E8D0C1BDE0BF8 /* Pods-FlowxApp.debug.xcconfig */,
+				D34098C559E960D4A79BF548 /* Pods-FlowxApp.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -96,10 +115,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D3C3D2FE26B02A55004C14A0 /* Build configuration list for PBXNativeTarget "FlowxApp" */;
 			buildPhases = (
+				C946694A135A5F9945D5B667 /* [CP] Check Pods Manifest.lock */,
 				D3C3D2E626B02A53004C14A0 /* Sources */,
 				D3C3D2E726B02A53004C14A0 /* Frameworks */,
 				D3C3D2E826B02A53004C14A0 /* Resources */,
 				D3C3D30926B02AF2004C14A0 /* Embed Frameworks */,
+				A43F203E227E306F88750115 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +175,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A43F203E227E306F88750115 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlowxApp/Pods-FlowxApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlowxApp/Pods-FlowxApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FlowxApp/Pods-FlowxApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C946694A135A5F9945D5B667 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlowxApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D3C3D2E626B02A53004C14A0 /* Sources */ = {
@@ -309,6 +372,7 @@
 		};
 		D3C3D2FF26B02A55004C14A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42840924A53E8D0C1BDE0BF8 /* Pods-FlowxApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -334,6 +398,7 @@
 		};
 		D3C3D30026B02A55004C14A0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D34098C559E960D4A79BF548 /* Pods-FlowxApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

@@ -1,0 +1,16 @@
+PODS:
+  - attestr-flowx (0.2.0)
+
+DEPENDENCIES:
+  - attestr-flowx
+
+SPEC REPOS:
+  trunk:
+    - attestr-flowx
+
+SPEC CHECKSUMS:
+  attestr-flowx: b5587c065f0abdafce7776ba83eabc60c6c8f995
+
+PODFILE CHECKSUM: ee5406efd30ec1cc6c9ec5f9269e9adf93e0edb6
+
+COCOAPODS: 1.10.1

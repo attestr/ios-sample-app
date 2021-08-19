@@ -217,13 +217,13 @@ class ViewController: UIViewController {
 //MARK:- AttestrFlowxEvent Delegate methods
 extension ViewController: AttestrFlowxEventProtocol {
     
-    func onFlowxSuccess(_ data: [String : String]) {
+    func onFlowxSuccess(_ data: [String : AnyObject]) {
         let alert = UIAlertController(title: "Success!", message: "The verification process was completed successfully.", preferredStyle: .alert)
         alert.addAction(UIAlertAction(title: "OK", style: .default))
         self.present(alert, animated: true)
     }
     
-    func onFlowxSkip(_ data: [String : String]) {
+    func onFlowxSkip(_ data: [String : AnyObject]) {
         let alert = UIAlertController(title: "Skipped", message: "The verification process was skipped. Some parts of it might be repeated.", preferredStyle: .alert)
         alert.addAction(UIAlertAction(title: "OK", style: .default))
         self.present(alert, animated: true)
