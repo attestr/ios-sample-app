@@ -105,6 +105,10 @@ class ViewController: UIViewController {
     
     private var const: CGFloat = 70
     
+    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
+        return .portrait
+    }
+    
     //MARK:- View did load
     override func viewDidLoad() {
         super.viewDidLoad()
