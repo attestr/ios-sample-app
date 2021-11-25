@@ -7,7 +7,7 @@ target 'FlowxApp' do
 
   # Pods for FlowxApp
 	
-	pod 'attestr-flowx', '~> 0.2.0'
+	pod 'attestr-flowx', '~> 0.3.0'
 
 
 

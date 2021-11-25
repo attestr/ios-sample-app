@@ -62,5 +62,15 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSCameraUsageDescription</key>
+	<string>Permission is required to complete camera based KYC</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Permission is required to complete location based KYC</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Permission is required to complete location based KYC</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Permission is required to complete location based KYC</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Permission is required to complete document based KYC</string>
 </dict>
 </plist>
